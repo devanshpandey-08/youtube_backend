@@ -5,3 +5,4 @@ class ApiResPonse {
         this.data = data;
         this.success = status < 400;
     }
+}

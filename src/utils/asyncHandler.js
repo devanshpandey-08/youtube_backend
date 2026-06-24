@@ -8,6 +8,8 @@ const asyncHandler = (requestHandler) => {
 export default asyncHandler;
 
 
+
+/*
 const asyncHandlwer = (fn) => {
     return async (req, res, next) => {
         try {
@@ -21,3 +23,4 @@ const asyncHandlwer = (fn) => {
 const asyncHandler =()=>{}
 
 const ayncHandler = (fn) => async() => { }
+*/

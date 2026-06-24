@@ -18,7 +18,7 @@ app.use(express.urlencoded({
     limit: "16kb"
 }));
 app.use(express.static("public"));
-app.use(cookieParser());
+
 
 //for middleware we have (err,req,res,next) => {} 4 parameters
 /*app.use((err, req, res, next) => {
